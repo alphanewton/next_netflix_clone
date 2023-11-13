@@ -7,7 +7,7 @@ function NavBar() {
     <div className="flex justify-between items-center p-4 z-[100] w-full absolute">
       <Link href="/">
         <h1 className="text-red-600 text-4xl font-bold cursor-pointer">
-          NETFLIX
+          NEWTFLIX
         </h1>
       </Link>
       {session.data?.user?.email ? (
